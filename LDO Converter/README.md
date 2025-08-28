@@ -1,32 +1,42 @@
-# LDO Converter
+# LDO Converter (PCB Design)
 
-This project contains the Altium Designer schematic and PCB layout for a Low Dropout (LDO) voltage regulator.
-
----
-
-## Schematic
-![Schematic](./schematic.png)
-
-*(+5V to +3.3V Regulator using MIC5317-3.3YM5-TR)*
+The LDO Converter is a voltage regulator circuit that steps down a +5V input to a stable +3.3V output using the MIC5317-3.3YM5-TR low-dropout regulator IC. It provides clean, regulated power for low-voltage digital circuits and includes input/output capacitors for stability and noise reduction.
 
 ---
 
-## Files
-- [Schematic File (.SchDoc)](./LDO%20Converter%20-%20Schematics.SchDoc)  
-- [PCB Layout File (.PcbDoc)](./LDO%20Converter%20-%20PCB.PcbDoc)  
+## 📜 Project Overview
+The circuit regulates **+5V input** down to **+3.3V output** using an LDO regulator IC.  
+Key components:
+- **MIC5317-3.3YM5-TR** (LDO Regulator IC)  
+- **Input Capacitor (C1)**  
+- **Output Capacitor (C2)**  
+- **Connectors (J1, J2)** for input/output  
 
 ---
 
-## Description
-- **Input Voltage:** +5V  
-- **Output Voltage:** +3.3V regulated  
-- **IC Used:** MIC5317-3.3YM5-TR  
-- **Connectors:** SM02B-GHS-TB(LF)(SN)  
-- **Capacitors:** C1 and C2 for input/output filtering  
+## 🛠 Tools Used
+- **Altium Designer** for schematic and PCB layout  
+- **GitHub** for version control  
 
 ---
 
-## How to Open
-1. Download the `.SchDoc` and `.PcbDoc` files from this folder.  
-2. Open them in **Altium Designer**.  
+## 📂 Files in This Project
+- **`LDO Converter - Schematics.SchDoc`** – Altium schematic file  
+- **`LDO Converter - PCB.PcbDoc`** – Altium PCB layout file  
+- **`schematic.png`** – Exported schematic image  
+- *(Optional)* Add PCB screenshots if exported from Altium  
 
+---
+
+## 📸 Project Images
+
+### Schematic
+<img width="931" height="350" alt="image" src="https://github.com/user-attachments/assets/4b3ae718-798c-4a15-a060-1e2c69a8cdf0" />
+
+### PCB Board
+<img width="953" height="468" alt="image" src="https://github.com/user-attachments/assets/ac58783d-5169-45f9-bf9a-998da7edf323" />
+
+## 📬 Repository Info
+- **Folder Name:** `LDO Converter`  
+- **Author:** Sayem  
+- **License:** Open for learning and educational purposes  
