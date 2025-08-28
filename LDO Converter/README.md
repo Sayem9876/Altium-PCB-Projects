@@ -24,8 +24,6 @@ Key components:
 - **`LDO Converter - Schematics.SchDoc`** – Altium schematic file  
 - **`LDO Converter - PCB.PcbDoc`** – Altium PCB layout file  
 - **`schematic.png`** – Exported schematic image  
-- *(Optional)* Add PCB screenshots if exported from Altium  
-
 ---
 
 ## 📸 Project Images
